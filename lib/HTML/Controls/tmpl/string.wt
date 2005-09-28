@@ -1,0 +1,2 @@
+<input type="text" name="[% name|html %]" value="[% value | html %]" />
+[% PROCESS 'errors.wt' %]

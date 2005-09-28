@@ -1,0 +1,8 @@
+TODO
+
+* tests for CompositeOf, ArrayOf, ACString
+* simplify testing
+* examples/cookbook
+* more AJAX controls
+* a way to avoid importing twice the same JS lib (JSAN? include
+  guards? global state in the base class?)

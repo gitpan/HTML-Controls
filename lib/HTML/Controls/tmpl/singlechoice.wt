@@ -1,0 +1,7 @@
+<select name="[% name | html %]">
+ <option value="" [% UNLESS value.defined %]selected="selected"[% END %]> - scegli - </option>
+ [% FOREACH val = list %]
+ <option value="[% loop.count - 1 %]" [% IF val == value %]selected="selected"[% END %]>[% val %]</option>
+ [% END %]
+</select>
+[% PROCESS 'errors.wt' %]

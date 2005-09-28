@@ -1,0 +1,57 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.45.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 678a4b5039ae18a7b37ab320fe32654ccd44f889 Build.PL
+SHA1 f6c31ed95116d2699d1d231685a2c152f1062619 Changes
+SHA1 5c13d7d3783ebdbc0df5e332b4d2818b4aaa058b MANIFEST
+SHA1 9debf1fcf505c0f8eaece60bad6b257ac69d013d META.yml
+SHA1 b56c2fd79449945f73b70c6a2879ad1ea69c7e42 Makefile.PL
+SHA1 069396f99bf69491f0ede8c3efa9b9f012fc791f README
+SHA1 b6caa46b1777df631be2975829d54b534cd53b23 TODO
+SHA1 51e4b16a59198aed0a45e2412cd6c7e172c6e477 lib/HTML/Controls.pm
+SHA1 b922c200c1997cdbf0507289a0152a70d18f887c lib/HTML/Controls/ACString.pm
+SHA1 d49960da5caedaf1eaa58cf605dec3f3ab541c82 lib/HTML/Controls/ArrayOf.pm
+SHA1 011c38c8f45dd67430bb282581a74793b6009dbf lib/HTML/Controls/Base.pm
+SHA1 bb0dd5ca10f25c2cb1d16c96d642e43d4f0b56b8 lib/HTML/Controls/CompositeOf.pm
+SHA1 55126c53c1500d97dc33dfebf51b94125eaffdba lib/HTML/Controls/Date.pm
+SHA1 5fe46b563f2173d7f164324614cc6d300b5b8f09 lib/HTML/Controls/Number.pm
+SHA1 2aadd5c8cfc44733e40ae68d2e0375e84888052e lib/HTML/Controls/SingleChoice.pm
+SHA1 025910f6ab7c2e230e7b94ceee92cf94f58b4ca8 lib/HTML/Controls/String.pm
+SHA1 976253361216ff54ec5c42ca80f291a3faa8fa55 lib/HTML/Controls/tmpl/acstring-head.wt
+SHA1 7072e96ae8e1a8c10f667850cc57df0438fa3b97 lib/HTML/Controls/tmpl/acstring.wt
+SHA1 c0b56350979f69cc5e58ce8d81196fc87cbc181a lib/HTML/Controls/tmpl/array_of.wt
+SHA1 24afa8092e0f3af6f9b75baa730016b0d0547527 lib/HTML/Controls/tmpl/date.wt
+SHA1 10268c1e123ff51ba76e28ffd7d8c42f80556d10 lib/HTML/Controls/tmpl/errors.wt
+SHA1 1291a75abd8fdf5872c63a09360754e2986f544b lib/HTML/Controls/tmpl/singlechoice.wt
+SHA1 19ef586cc595f0f0d5e8db161eed943ede3c881f lib/HTML/Controls/tmpl/string.wt
+SHA1 d9b244e0b9710927ed4d13def2f09e3a8867045b pod2htmd.tmp
+SHA1 5c743cd8ac75bca2111eb0bea07457ad00668200 pod2htmi.tmp
+SHA1 dd1e7a6b2447dd3dd9355c413d4674b560c7fcc7 t/00-load.t
+SHA1 c3cf15ce63f97ae55bfb6b69f3cc8e4a0125580c t/00-pod-coverage.t
+SHA1 0ab46067c433bdac2db67712c2e56be0c0313cb0 t/00-pod.t
+SHA1 b4ae01969e4fee8265f0adb1ab517c82ee1e9203 t/00-prereqs.t
+SHA1 ae1b835b68e68f5d0d9d0c43b605152942f112be t/01base.t
+SHA1 c2a4910ccef03895ab62825a8195111b9578c057 t/02string.t
+SHA1 f47ecbd9b527e5db46ba5a5f5885270f24bf744e t/03number.t
+SHA1 a3690c7d569b76453d7009bddff198529a2c2f47 t/04date.t
+SHA1 a04c00cc1b366140d5295f67c6e72edf9f38513a t/05singlechoice.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.2.4 (Darwin)
+
+iD8DBQFDOmzgQOqYg3UZP4gRArkzAJ9ZfsRdhWYbBbnaNl53rVuv20mdaACfWJCY
+1H0dxoCFhPKgejWDugk4fs4=
+=xs9H
+-----END PGP SIGNATURE-----

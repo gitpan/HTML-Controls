@@ -1,0 +1,2 @@
+<input type="text" size="4" maxlenght="4" name="[% name | html %]_d" value="[% day | html %]" />/<input type="text" size="4" maxlenght="4" name="[% name | html %]_m" value="[% month | html %]" />/<input type="text" size="4" maxlenght="4" name="[% name | html %]_y" value="[% year | html %]" />
+[% PROCESS 'errors.wt' %]

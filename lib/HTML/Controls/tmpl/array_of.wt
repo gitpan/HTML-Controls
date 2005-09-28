@@ -1,0 +1,13 @@
+<ol>
+ <input type="hidden" name="[% name %]_size" value="[% items.size %]" />
+ [% FOREACH i=items %]
+ <li>
+  <button name="[% name %]_add_[% loop.count %]" type="submit">+</button>
+  [% UNLESS items.size == 1 -%]
+   <button name="[% name %]_del_[% loop.count %]" type="submit">-</button>
+  [%- END %]
+  [% i.form() %]
+ </li>
+ [% END %]
+</ol>
+[% PROCESS 'errors.wt' %]

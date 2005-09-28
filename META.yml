@@ -1,0 +1,51 @@
+---
+name: HTML-Controls
+version: 0.1
+author:
+  - Gianni Ceccarelli <dakkar@thenautilus.net>
+abstract: |
+  A library of controls/widgets to use in HTML forms to separate
+  'external' (i.e. in the HTML) representation from 'internal' (i.e. in
+  the program) representation.
+license: perl
+requires:
+  Carp: 0
+  Date::Parse: 0
+  Module::Pluggable::Fast: 0
+  Path::Class: 0
+  Regexp::Common: 0
+  Template: 2.14
+build_requires:
+  Data::Dumper: 0
+  Test::Exception: 0
+  Test::MockObject: 0
+  Test::More: 0
+provides:
+  HTML::Controls:
+    file: lib/HTML/Controls.pm
+    version: 0.1
+  HTML::Controls::ACString:
+    file: lib/HTML/Controls/ACString.pm
+    version: 0.1
+  HTML::Controls::ArrayOf:
+    file: lib/HTML/Controls/ArrayOf.pm
+    version: 0.1
+  HTML::Controls::Base:
+    file: lib/HTML/Controls/Base.pm
+    version: 0.1
+  HTML::Controls::CompositeOf:
+    file: lib/HTML/Controls/CompositeOf.pm
+    version: 0.1
+  HTML::Controls::Date:
+    file: lib/HTML/Controls/Date.pm
+    version: 0.1
+  HTML::Controls::Number:
+    file: lib/HTML/Controls/Number.pm
+    version: 0.1
+  HTML::Controls::SingleChoice:
+    file: lib/HTML/Controls/SingleChoice.pm
+    version: 0.1
+  HTML::Controls::String:
+    file: lib/HTML/Controls/String.pm
+    version: 0.1
+generated_by: Module::Build version 0.2611

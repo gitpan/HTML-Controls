@@ -1,0 +1,35 @@
+Build.PL
+Changes
+lib/HTML/Controls.pm
+lib/HTML/Controls/ACString.pm
+lib/HTML/Controls/ArrayOf.pm
+lib/HTML/Controls/Base.pm
+lib/HTML/Controls/CompositeOf.pm
+lib/HTML/Controls/Date.pm
+lib/HTML/Controls/Number.pm
+lib/HTML/Controls/SingleChoice.pm
+lib/HTML/Controls/String.pm
+lib/HTML/Controls/tmpl/acstring-head.wt
+lib/HTML/Controls/tmpl/acstring.wt
+lib/HTML/Controls/tmpl/array_of.wt
+lib/HTML/Controls/tmpl/date.wt
+lib/HTML/Controls/tmpl/errors.wt
+lib/HTML/Controls/tmpl/singlechoice.wt
+lib/HTML/Controls/tmpl/string.wt
+MANIFEST
+META.yml			# Will be created by "make dist"
+pod2htmd.tmp
+pod2htmi.tmp
+README
+t/00-load.t
+t/00-pod-coverage.t
+t/00-pod.t
+t/00-prereqs.t
+t/01base.t
+t/02string.t
+t/03number.t
+t/04date.t
+t/05singlechoice.t
+TODO
+Makefile.PL
+SIGNATURE    Added here by Module::Build

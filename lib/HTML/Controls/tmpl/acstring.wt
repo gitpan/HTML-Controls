@@ -1,0 +1,14 @@
+[% control_id = name _ '_ac'; div_id = control_id _ '_choices' %]
+<input type="text" id="[%  control_id | html %]" name="[% name | html %]" autocomplete="off" value="[% value | html %]" /><div id="[% div_id %]"></div>
+[% IF acstyle == 'ajax' -%]
+<script type="text/javascript">new Ajax.Autocompleter('[% control_id %]', '[% div_id %]', '[% acurl %]', {
+[% FOREACH opt=acopts.keys; opt _ ": '" _ acopts.$opt _ "', "; END -%]
+})</script>
+[%- ELSE -%]
+<script type="text/javascript">new Autocompleter.Local('[% control_id %]', '[% div_id %]', [
+[%- FOREACH item=acitems; %]'[% item | html %]',[% END -%]
+], {
+[% FOREACH opt=acopts.keys; opt _ ": '" _ acopts.$opt _ "', "; END -%]
+})</script>
+[%- END %]
+[% PROCESS 'errors.wt' %]

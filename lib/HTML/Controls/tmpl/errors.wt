@@ -1,0 +1,7 @@
+[% IF errors %]
+<ul>
+ [% FOR e = errors %]
+ <li>[% e %]</li>
+ [% END %]
+</ul>
+[% END %]
